@@ -1,0 +1,85 @@
+# ==========================================
+# E-Commerce Sales Analysis - PostgreSQL
+# Git ignore rules
+# ==========================================
+
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# PostgreSQL local data directories and runtime files
+# Keep SQL scripts and schema files tracked.
+.pgdata/
+pgdata/
+postgres-data/
+postmaster.pid
+postmaster.opts
+*.pid
+*.sock
+
+# Database exports, dumps, and backups
+*.dump
+*.backup
+*.bak
+*.sql.gz
+*.sql.zip
+*.tar
+*.tar.gz
+
+# Local database/client configuration
+.pgpass
+.pg_service.conf
+pg_service.conf
+
+# Generated reports and spreadsheet exports
+*.xlsx
+*.xls
+*.csv
+*.parquet
+
+# Python cache / virtual environments (if helper scripts are added)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Node.js dependencies (if documentation tooling is added)
+node_modules/
+
+# Build / coverage output
+build/
+dist/
+coverage/
